@@ -1,0 +1,7 @@
+Reminders: 
+
+
+Log: 
+July 26th 
+- First Commit 
+- Added Assets

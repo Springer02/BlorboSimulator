@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cg5pfw2gfaq0t"
-path="res://.godot/imported/knight.png-539e775f0d794d3f01c528f73332c344.ctex"
+uid="uid://eytj6ejl14ui"
+path="res://.godot/imported/world_tileset.png-caae585fafa7cc44b00925bf62e268d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/brackeys_platformer_assets/sprites/knight.png"
-dest_files=["res://.godot/imported/knight.png-539e775f0d794d3f01c528f73332c344.ctex"]
+source_file="res://Assets/Sprites/world_tileset.png"
+dest_files=["res://.godot/imported/world_tileset.png-caae585fafa7cc44b00925bf62e268d9.ctex"]
 
 [params]
 

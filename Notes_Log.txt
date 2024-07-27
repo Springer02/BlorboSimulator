@@ -1,7 +1,19 @@
-Reminders: 
+Header Template:
+## Name: Notes_Log.txt
+## 
+## Description: A place for me to notate all that I've done and on what day
+## 				as well as any reminders or style guides I want to follow:  
+## Author: Damien Springer
+## Contact: damien@damienrenee.com
 
+Reminders: 
+Folders Uppercase
+scripts and scenes lowercase 
 
 Log: 
 July 26th 
 - First Commit 
 - Added Assets
+- Created default player w/ brackeys assets & idle animation 
+- Will add more player animations & customization if I can get abilities to work
+- made basic platform to run & jump and collide with 

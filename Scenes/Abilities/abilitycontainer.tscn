@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://je0yx3ab2awo"]
+
+[ext_resource type="Script" path="res://Scripts/abilitycontainer.gd" id="1_p1tly"]
+
+[node name="AbilityContainer" type="Node2D"]
+script = ExtResource("1_p1tly")

@@ -1,7 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://bhj747a1ohi5y"]
+[gd_scene load_steps=11 format=3 uid="uid://bhj747a1ohi5y"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_156pq"]
 [ext_resource type="Texture2D" uid="uid://cg5pfw2gfaq0t" path="res://Assets/Sprites/knight.png" id="1_ck074"]
+[ext_resource type="PackedScene" uid="uid://je0yx3ab2awo" path="res://Scenes/Abilities/abilitycontainer.tscn" id="2_xwhau"]
+[ext_resource type="PackedScene" uid="uid://bou0nvc516yko" path="res://Scenes/Abilities/bulletabilitybase.tscn" id="3_vwck4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l2m5d"]
 atlas = ExtResource("1_ck074")
@@ -47,6 +49,10 @@ height = 16.0
 editor_description = "Test"
 position = Vector2(0, -14)
 script = ExtResource("1_156pq")
+
+[node name="AbilityContainer" parent="." instance=ExtResource("2_xwhau")]
+
+[node name="bulletbaseability" parent="AbilityContainer" instance=ExtResource("3_vwck4")]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -2)

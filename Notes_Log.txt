@@ -17,3 +17,8 @@ July 26th
 - Created default player w/ brackeys assets & idle animation 
 - Will add more player animations & customization if I can get abilities to work
 - made basic platform to run & jump and collide with 
+
+July 28th
+- Trying to make entity stats system and make player inherit from entity
+- running into issues grabbing speed variable
+- gave up on entitystats for now, will try to make abilitycontainer later
